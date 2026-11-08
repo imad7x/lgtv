@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Movies</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="hero">
+  <div id="hero-backdrop"></div>
+  <div id="hero-scrim"></div>
+  <div id="hero-content">
+    <div id="hero-rating"></div>
+    <h1 id="hero-title"></h1>
+    <div id="hero-meta"></div>
+    <div id="hero-overview"></div>
+    <div id="hero-actions">
+      <button id="act-trailer" class="hero-btn" data-act="trailer"><span class="icon">▶</span> Trailer</button>
+      <button id="act-get" class="hero-btn primary" data-act="get"><span class="icon">↓</span> Get It</button>
+      <button id="act-watchlist" class="hero-btn" data-act="watchlist"><span class="icon">+</span> Watchlist</button>
+    </div>
+  </div>
+</div>
+
+<div id="rows"><div id="rows-inner"></div></div>
+
+<div id="toast" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>
